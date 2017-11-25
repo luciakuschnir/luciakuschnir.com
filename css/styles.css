@@ -1,0 +1,232 @@
+/*____________________________________________________________________  reset  */
+* { margin: 0px; padding: 0px; }
+html, body, div, h1, h2, ul, li, ol, form, p, dd, dl, dt, label, input {margin:0px;	padding:0px; list-style:none; font-weight:normal;}
+body {margin:0;font:12px Arial, Helvetica, sans-serif;}
+img {border:0;}
+a {text-decoration:none; color: #000;}
+a:hover {color:#C00;}
+input, select, textarea {font:12px Arial, Helvetica, sans-serif;}
+.clear{clear:both;}
+.toupper{text-transform:uppercase;}
+
+
+/*____________________________________________________________________  grilla  */
+body { background-color:#FFF; }
+#contenedor {width: 960px;  margin:auto; display: block;}	
+/*
+
+
+/*____________________________________________________________________  header  */
+#header{ 
+	width: 960px; 
+	margin: auto;
+	display: block;
+	text-align:center;
+}
+#header #logo{
+	width:726px;
+	height:117px;
+	margin:auto;
+	margin-top:25px;
+	vertical-align:bottom;
+}
+
+
+/*____________________________________________________________________  menu  */
+#menu{
+	width:726px;
+	margin:auto;
+}
+#menu .item{
+	color:#C00;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	float:left;
+}
+#menu .item a{
+	color:#666;
+}
+#menu .item a:hover{
+	color:#C00;
+}
+
+
+/*____________________________________________________________________  submenu  */
+#submenu{
+	width:726px;
+	margin:auto;
+	clear:both;
+}
+#submenu .item{
+	color:#C00;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	float:left;
+}
+#submenu .item a{
+	color:#666;
+}
+#submenu .item a:hover{
+	color:#C00;
+}
+
+
+/*____________________________________________________________________  contacto  */
+#contacto{
+	width:726px;
+	height:300px;
+	margin:auto;
+	margin-top:100px;
+	text-align:center;
+	display:block;
+	clear:both;
+}
+#contacto p{
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:25px;
+}
+#contacto a{
+	color:#666;	
+}
+#contacto a:hover{
+	color:#C00;	
+}
+
+
+/*____________________________________________________________________  biografia  */
+#biografia{
+	width:726px;
+	margin:auto;
+	margin-top:20px;
+	text-align:left;
+	display:block;
+	clear:both;
+}
+#biografia .titulo{
+	width:726px;
+	height:20px;
+	margin-top:60px;
+	margin-bottom:5px;
+	padding-left:2px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	clear:both;	
+}
+#biografia .item{
+	width:726px;
+	padding-left:2px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	clear:both;	
+}
+#biografia .item .anio{
+	width:90px;
+	float:left;
+	margin:5px 0;
+	line-height:20px;
+}
+#biografia .item .texto{
+	width:630px;
+	float:left;
+	margin:5px 0;
+	line-height:20px;
+}
+#biografia .item p{
+	width:726px;
+	margin:5px 0;
+	line-height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;	
+}
+
+
+/*____________________________________________________________________  reviews  */
+#reviews{
+	width:726px;
+	margin:auto;
+	margin-top:60px;
+	text-align:left;
+	display:block;
+	clear:both;
+}
+#reviews #col-izq{
+	width:326px;
+	height:270px;
+	text-align:left;
+	float:left;
+}
+#reviews #col-izq #referente p{
+	color:#666;
+}
+#reviews #col-der{
+	width:400px;
+	height:270px;
+	text-align:right;
+	float:left;
+}
+
+
+/*____________________________________________________________________  works  */
+#works{
+	width:726px;
+	margin:auto;
+	margin-top:60px;
+	text-align:left;
+	display:block;
+	clear:both;
+}
+#works #col-izq{
+	width:316px;
+	margin:auto;
+	text-align:left;
+	float:left;
+}
+#works #col-izq #see_more{
+	font-size:10px;
+}
+#works #col-izq #referente{
+	/*padding-top:100px;*/
+}
+#works #col-izq #referente p{
+	color:#666;
+}
+#works #col-der{
+	width:410px;
+	margin:auto;
+	text-align:right;
+	float:left;
+	vertical-align:bottom;
+}
+#works #col-der img{
+	border:ffffff 1px solid;	
+}
+
+
+/*____________________________________________________________________  about my work  */
+#about{
+	width:726px;
+	margin:auto;
+	margin-top:60px;
+	text-align:left;
+	display:block;
+	clear:both;
+}
+#about #col-izq{
+	width:376px;
+	margin:auto;
+	text-align:left;
+	float:left;
+}
+#about #col-izq #referente p{
+	color:#666;
+}
+#about #col-der{
+	width:350px;
+	margin:auto;
+	text-align:right;
+	float:left;
+}
